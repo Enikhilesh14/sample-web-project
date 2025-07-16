@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Registration form
+        </title>
+    </head>
+    <body>
+        <fieldset>
+        <legend>
+            <fieldset>Registration Form</fieldset>
+        </legend>
+        <form action="#">
+        <table cellspacing = "5">
+            <tr>
+                <td>  
+                        User Name
+                </td>
+                <td>
+                    <input required type="text" placeholder="Enter user name" >
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Email
+                </td>
+                <td>
+                    <input required type ="email" placeholder="Enter email id">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Password
+                </td>
+                <td>
+                    <input password type="password" placeholder="Enter password" required>
+                </td>
+            </tr>
+            <tr>
+                <td>DOB</td>
+                <td>
+                    <input type="date" name="dob" id="dob">
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    Select your gender
+                </td>
+                <td>
+                    <input required checked type="radio" name="radio" id = "male" value="male">
+                    <label for="male">Male</label>
+                    <input type="radio" name="radio" id = "female" value="female">
+                    <label for="female">Female</label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Select your hobby
+                </td>
+                <td>
+                    <input required checked type="checkbox" name="hobby" id = "hockey" value="hockey">
+                    <label for="hockey">Hockey</label>
+                    <input type="checkbox" name="hobby" id = "cricket" value="cricket">
+                    <label for="cricket">Cricket</label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Choose language to learn
+                </td>
+                <td>
+                    <select multiple required name="subject" id="subject">
+                        <option value="">Select subject </option>
+                        <option selected value="C">C</option>
+                        <option value="C++">C++</option>
+                        <option value="Java">Java</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Address
+                </td>
+                <td>
+                    <textarea required name="address" id="address" rows="4" cols="22" placeholder="Enter address"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                </td>
+                <td>
+                    <button>Register</button>
+                    <input type="reset" value="Reset">
+                </td>
+            </tr>
+        </table>
+        </form>
+    </fieldset>
+    </body>
+</html>
